@@ -46,22 +46,22 @@ Card Library is pushed to Maven Central as an AAR, so you just need to add the f
 
     dependencies {
         //Core
-        compile 'com.github.paulomarne.cards:cardslib-core:2.1.0'
+        compile 'com.github.paulomarne.cards:cardlibs-core:2.1.0'
         
         //Optional for built-in cards
-        compile 'com.github.paulomarne.cards:cardslib-cards:2.1.0'
+        compile 'com.github.paulomarne.cards:cardlibs-cards:2.1.0'
                 
         //Optional for RecyclerView
-        compile 'com.github.paulomarne.cards:cardslib-recyclerview:2.1.0'
+        compile 'com.github.paulomarne.cards:cardlibs-recyclerview:2.1.0'
           
         //Optional for staggered grid view
-        compile 'com.github.paulomarne.cards:cardslib-extra-staggeredgrid:2.1.0'
+        compile 'com.github.paulomarne.cards:cardlibs-extra-staggeredgrid:2.1.0'
          
         //Optional for drag and drop
-        compile 'com.github.paulomarne.cards:cardslib-extra-dragdrop:2.1.0'
+        compile 'com.github.paulomarne.cards:cardlibs-extra-dragdrop:2.1.0'
         
         //Optional for twoway  (coming soon)
-        //compile 'com.github.paulomarne.cards:cardslib-extra-twoway:2.1.0'
+        //compile 'com.github.paulomarne.cards:cardlibs-extra-twoway:2.1.0'
         
     }
 
