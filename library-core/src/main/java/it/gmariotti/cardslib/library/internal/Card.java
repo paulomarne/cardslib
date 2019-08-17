@@ -33,7 +33,7 @@ import it.gmariotti.cardslib.library.internal.base.BaseCard;
 /**
  * Main Card Model
  * </p>
-  * You can customize this component. See https://github.com/gabrielemariotti/cardslib/tree/master/doc/CARD.md for more information.
+  * You can customize this component. See https://github.com/paulomarne/cardlibs/tree/master/doc/CARD.md for more information.
  * </p>
  * You can easily extend and customize this class providing your inner layout and
  * setting your values with {@link #setupInnerViewElements(android.view.ViewGroup, android.view.View)} method.

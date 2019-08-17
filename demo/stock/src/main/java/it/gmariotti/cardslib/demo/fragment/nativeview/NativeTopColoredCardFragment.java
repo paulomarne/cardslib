@@ -52,7 +52,7 @@ public class NativeTopColoredCardFragment extends BaseMaterialFragment {
 
     @Override
     protected String getSourceUrl() {
-        return "https://github.com/gabrielemariotti/cardslib/blob/master/demo/stock/src/main/java/it/gmariotti/cardslib/demo/fragment/nativeview/NativeMaterialCardFragment.java";
+        return "https://github.com/paulomarne/cardlibs/blob/master/demo/stock/src/main/java/it/gmariotti/cardslib/demo/fragment/nativeview/NativeMaterialCardFragment.java";
     }
 
     @Override

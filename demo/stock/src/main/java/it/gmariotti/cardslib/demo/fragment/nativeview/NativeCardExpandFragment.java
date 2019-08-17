@@ -73,12 +73,12 @@ public class NativeCardExpandFragment extends BaseMaterialFragment {
 
     @Override
     protected String getDocUrl() {
-        return "https://github.com/gabrielemariotti/cardslib/blob/master/doc/EXPAND.md";
+        return "https://github.com/paulomarne/cardlibs/blob/master/doc/EXPAND.md";
     }
 
     @Override
     protected String getSourceUrl() {
-        return "https://github.com/gabrielemariotti/cardslib/blob/master/demo/stock/src/main/java/it/gmariotti/cardslib/demo/fragment/nativeview/NativeCardExpandFragment.java";
+        return "https://github.com/paulomarne/cardlibs/blob/master/demo/stock/src/main/java/it/gmariotti/cardslib/demo/fragment/nativeview/NativeCardExpandFragment.java";
     }
 
     @Override

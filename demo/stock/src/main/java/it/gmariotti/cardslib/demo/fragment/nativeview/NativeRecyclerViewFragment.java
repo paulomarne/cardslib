@@ -58,12 +58,12 @@ public class NativeRecyclerViewFragment extends BaseNativeListFragment {
 
     @Override
     protected String getDocUrl() {
-        return "https://github.com/gabrielemariotti/cardslib/blob/master/doc/RECYCLERVIEW.md";
+        return "https://github.com/paulomarne/cardlibs/blob/master/doc/RECYCLERVIEW.md";
     }
 
     @Override
     protected String getSourceUrl() {
-        return "https://github.com/gabrielemariotti/cardslib/blob/master/demo/stock/src/main/java/it/gmariotti/cardslib/demo/fragment/nativeview/NativeRecyclerViewFragment.java";
+        return "https://github.com/paulomarne/cardlibs/blob/master/demo/stock/src/main/java/it/gmariotti/cardslib/demo/fragment/nativeview/NativeRecyclerViewFragment.java";
     }
 
     @Override

@@ -166,7 +166,7 @@ Version 1.0.0 *(2013-12-03)*
 * DEMO-extras: Added an example with [StickyListHeaders by Emil Sjölander](https://github.com/emilsjolander/StickyListHeaders) [(doc)](/doc/OTHERLIBRARIES.md#using-card-with-stickylistheaders)
 * LIB: Added a CardGridCursorAdapter [(doc)](/doc/CARDGRID.md#using-a-cursor-adapter)
 * LIB: Added a new method to change dynamically the card background with a Drawable object. [(doc)](/doc/CARD.md#change-dynamically-card-background-with-a-drawable-object)
-* LIB: Fixed an issue on CardHeader.OnClickCardHeaderPopupMenuListener. [(You can see this page to fix your code)](https://github.com/gabrielemariotti/cardslib/issues/35)
+* LIB: Fixed an issue on CardHeader.OnClickCardHeaderPopupMenuListener. [(You can see this page to fix your code)](https://github.com/paulomarne/cardlibs/issues/35)
 * LIB: Minor fixes (removed clickable warning, removed scaleType in base thumbnail layout)
 * DEMO: Added an example to change dynamically the card background
 * DEMO: Added an example with CardGridCursorAdapter [(source)](/demo/stock/src/main/java/it/gmariotti/cardslib/demo/fragment/GridCursorCardFragment.java)

@@ -55,15 +55,15 @@ Author: Gabriele Mariotti (gabri.mariotti@gmail.com)
 
 <a href="https://plus.google.com/u/0/114432517923423045208">
   <img alt="Follow me on Google+"
-       src="https://github.com/gabrielemariotti/cardslib/raw/master/demo/images/g+64.png" />
+       src="https://github.com/paulomarne/cardlibs/raw/master/demo/images/g+64.png" />
 </a>
 <a href="https://twitter.com/GabMarioPower">
   <img alt="Follow me on Twitter"
-       src="https://github.com/gabrielemariotti/cardslib/raw/master/demo/images/twitter64.png" />
+       src="https://github.com/paulomarne/cardlibs/raw/master/demo/images/twitter64.png" />
 </a>
 <a href="http://it.linkedin.com/in/gabrielemariotti">
   <img alt="Follow me on LinkedIn"
-       src="https://github.com/gabrielemariotti/cardslib/raw/master/demo/images/linkedin.png" />
+       src="https://github.com/paulomarne/cardlibs/raw/master/demo/images/linkedin.png" />
 </a>
 
 License

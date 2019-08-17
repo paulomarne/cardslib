@@ -46,7 +46,7 @@ Card Library is pushed to Maven Central as an AAR, so you just need to add the f
     }
 
 
-[To build the library and demo locally you can see this page for more info](https://github.com/gabrielemariotti/cardslib/tree/master/doc/BUILD.md).
+[To build the library and demo locally you can see this page for more info](https://github.com/paulomarne/cardlibs/tree/master/doc/BUILD.md).
 
 ---
 

@@ -69,12 +69,12 @@ public class ShadowFragment extends MaterialV1Fragment {
 
     @Override
     protected String getDocUrl() {
-        return "https://github.com/gabrielemariotti/cardslib/blob/master/doc/SHADOW.md";
+        return "https://github.com/paulomarne/cardlibs/blob/master/doc/SHADOW.md";
     }
 
     @Override
     protected String getSourceUrl() {
-        return "https://github.com/gabrielemariotti/cardslib/blob/master/demo/stock/src/main/java/it/gmariotti/cardslib/demo/fragment/v1/ShadowFragment.java";
+        return "https://github.com/paulomarne/cardlibs/blob/master/demo/stock/src/main/java/it/gmariotti/cardslib/demo/fragment/v1/ShadowFragment.java";
     }
 
     private void initCards() {
@@ -110,7 +110,7 @@ public class ShadowFragment extends MaterialV1Fragment {
     /**
      * This methods builds a card with a custom shadow layout (compound view)
      * <b>WARNING</b>
-     * See https://github.com/gabrielemariotti/cardslib/tree/master/SHADOW.md for more information.
+     * See https://github.com/paulomarne/cardlibs/tree/master/SHADOW.md for more information.
      * You can quickly modify your shadow with your style and drawable files without modifying shadow layout.
      */
     private void init_card_custom_shadow_layout() {

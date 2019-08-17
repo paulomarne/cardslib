@@ -60,12 +60,12 @@ public class GridGplayFragment extends MaterialV1Fragment {
 
     @Override
     protected String getDocUrl() {
-        return "https://github.com/gabrielemariotti/cardslib/blob/master/doc/CARDGRID.md";
+        return "https://github.com/paulomarne/cardlibs/blob/master/doc/CARDGRID.md";
     }
 
     @Override
     protected String getSourceUrl() {
-        return "https://github.com/gabrielemariotti/cardslib/blob/master/demo/stock/src/main/java/it/gmariotti/cardslib/demo/fragment/v1/GridGplayFragment.java";
+        return "https://github.com/paulomarne/cardlibs/blob/master/demo/stock/src/main/java/it/gmariotti/cardslib/demo/fragment/v1/GridGplayFragment.java";
     }
 
     @Override

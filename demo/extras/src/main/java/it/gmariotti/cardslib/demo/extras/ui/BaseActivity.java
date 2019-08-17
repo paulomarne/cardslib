@@ -505,7 +505,7 @@ public abstract class BaseActivity extends ActionBarActivity {
                 Utils.showAbout(this);
                 break;
             case NAVDRAWER_ITEM_GITHUB:
-                String url = "https://github.com/gabrielemariotti/cardslib/";
+                String url = "https://github.com/paulomarne/cardlibs/";
                 Intent i = new Intent(Intent.ACTION_VIEW);
                 i.setData(Uri.parse(url));
                 startActivity(i);

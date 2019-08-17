@@ -29,7 +29,7 @@ import it.gmariotti.cardslib.library.view.component.CardThumbnailView;
 /**
  * Card Thumbnail model.
  * </p>
- * You can customize this component. See https://github.com/gabrielemariotti/cardslib/tree/master/doc/THUMBNAIL.md for more information.
+ * You can customize this component. See https://github.com/paulomarne/cardlibs/tree/master/doc/THUMBNAIL.md for more information.
  * </p>
  * Load a image from a Resource ID or an URL.
  * </p>

@@ -29,7 +29,7 @@ import it.gmariotti.cardslib.library.internal.base.BaseCard;
 /**
  * Card Expand model.
  * <p>
- * You can customize this component. See https://github.com/gabrielemariotti/cardslib/tree/master/doc/EXPAND.md for more information.
+ * You can customize this component. See https://github.com/paulomarne/cardlibs/tree/master/doc/EXPAND.md for more information.
  * </p>
  * You can easily extend and customize this class providing your inner layout and
  * setting your values with {@link #setupInnerViewElements(android.view.ViewGroup, android.view.View)} method.
@@ -77,7 +77,7 @@ import it.gmariotti.cardslib.library.internal.base.BaseCard;
  *</code>
  *</pre>
  *
- *  See this page for more information https://github.com/gabrielemariotti/cardslib/tree/master/EXPAND.md
+ *  See this page for more information https://github.com/paulomarne/cardlibs/tree/master/EXPAND.md
  *
  * @author Gabriele Mariotti (gabri.mariotti@gmail.com)
  */

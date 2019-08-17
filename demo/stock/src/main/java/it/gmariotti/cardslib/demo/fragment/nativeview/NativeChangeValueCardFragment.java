@@ -70,12 +70,12 @@ public class NativeChangeValueCardFragment extends MaterialV1Fragment {
 
     @Override
     protected String getDocUrl() {
-        return "https://github.com/gabrielemariotti/cardslib/blob/master/doc/CARD.md";
+        return "https://github.com/paulomarne/cardlibs/blob/master/doc/CARD.md";
     }
 
     @Override
     protected String getSourceUrl() {
-        return "https://github.com/gabrielemariotti/cardslib/blob/master/demo/stock/src/main/java/it/gmariotti/cardslib/demo/fragment/native/NativeChangeValueCardFragment.java";
+        return "https://github.com/paulomarne/cardlibs/blob/master/demo/stock/src/main/java/it/gmariotti/cardslib/demo/fragment/native/NativeChangeValueCardFragment.java";
     }
 
 

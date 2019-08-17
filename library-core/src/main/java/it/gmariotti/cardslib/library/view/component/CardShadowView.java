@@ -32,7 +32,7 @@ import it.gmariotti.cardslib.library.view.base.CardViewInterface;
  * Compound View for Shadow Component.
  * </p>
  * It is built with base_shadow_layout xml file.
- * You can customize this component. See https://github.com/gabrielemariotti/cardslib/tree/master/SHADOW.md for more information.
+ * You can customize this component. See https://github.com/paulomarne/cardlibs/tree/master/SHADOW.md for more information.
  * </p>
  * You can customize it with your style files. Please see card.shadow_image style.
  * </p>
