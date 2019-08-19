@@ -16,7 +16,7 @@ ext {
 }
 
 def isReleaseBuild() {
-    return version.contains("SNAPSHOT") == false
+    return version.contains("3.0.0") == false
 }
 
 allprojects {
