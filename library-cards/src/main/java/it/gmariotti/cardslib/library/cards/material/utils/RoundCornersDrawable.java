@@ -127,23 +127,24 @@ public class RoundCornersDrawable extends Drawable {
      */
     public static boolean applyRoundedCorners(MaterialLargeImageCardThumbnail thumbnail,View imageView, Bitmap bitmap){
 
-        if (thumbnail!=null && thumbnail.getParentCard()!= null
-                && thumbnail.getParentCard().getCardView() != null
-                && thumbnail.getParentCard().getCardView() instanceof CardViewNative) {
-            if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
-                ((CardViewNative) thumbnail.getParentCard().getCardView()).setPreventCornerOverlap(false);
-                RoundCornersDrawable round = new RoundCornersDrawable(bitmap, ((CardViewNative) thumbnail.getParentCard().getCardView()).getRadius(), 0);
-                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN)
-                    imageView.setBackground(round);
-                else
-                    imageView.setBackgroundDrawable(round);
-
-                return true;
-            }else{
-                return false;
-            }
-        }else{
-            return false;
-        }
+//        if (thumbnail!=null && thumbnail.getParentCard()!= null
+//                && thumbnail.getParentCard().getCardView() != null
+//                && thumbnail.getParentCard().getCardView() instanceof CardViewNative) {
+//            if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
+//                    ((CardViewNative) thumbnail.getParentCard().getCardView()).setPreventCornerOverlap(false);
+//                RoundCornersDrawable round = new RoundCornersDrawable(bitmap, ((CardViewNative) thumbnail.getParentCard().getCardView()).getRadius(), 0);
+//                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN)
+//                    imageView.setBackground(round);
+//                else
+//                    imageView.setBackgroundDrawable(round);
+//
+//                return true;
+//            }else{
+//                return false;
+//            }
+//        }else{
+//            return false;
+//        }
+        return false;
     }
 }

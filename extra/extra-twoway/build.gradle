@@ -25,12 +25,12 @@ android {
 
 dependencies {
     // Cards Library
-    compile project(':library-core')
-    compile project(':library-recyclerview')
+    implementation project(':library-core')
+    implementation project(':library-recyclerview')
 
     //Twowayview
-    compile 'org.lucasr.twowayview:core:1.0.0-SNAPSHOT@aar'
-    compile 'org.lucasr.twowayview:layouts:1.0.0-SNAPSHOT@aar'
+    implementation 'org.lucasr.twowayview:core:1.0.0-SNAPSHOT@aar'
+    implementation 'org.lucasr.twowayview:layouts:1.0.0-SNAPSHOT@aar'
 
 }
 

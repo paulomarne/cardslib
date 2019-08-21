@@ -10,7 +10,7 @@ android {
 
     defaultConfig {
         minSdkVersion 14
-        targetSdkVersion 22
+        targetSdkVersion 26
         versionName project.VERSION_NAME
         versionCode Integer.parseInt(project.VERSION_CODE)
     }
@@ -23,10 +23,10 @@ android {
 
 dependencies {
     // Cards Library
-    compile project(':library-core')
+    implementation project(':library-core')
 
     //StaggeredGrid
-    compile 'com.etsy.android.grid:library:1.0.5'
+    implementation 'com.etsy.android.grid:library:1.0.5'
 }
 
 // Used to update in Maven

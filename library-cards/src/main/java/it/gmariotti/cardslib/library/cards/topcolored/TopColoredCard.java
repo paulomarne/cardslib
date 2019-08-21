@@ -203,7 +203,7 @@ public class TopColoredCard extends BaseMaterialCard {
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP)
                     holder.mLinearLayoutContainer.setBackgroundColor(mContext.getResources().getColor(mColorResourceId));
                 else{
-                    ((CardViewNative)(getCardView()) ).setPreventCornerOverlap(false);
+//                    ((CardViewNative)(getCardView()) ).setPreventCornerOverlap(false);
                     GradientDrawable shapeDrawable = (GradientDrawable) (holder.mLinearLayoutContainer.getBackground());
                     shapeDrawable.setColor(mContext.getResources().getColor(mColorResourceId));
                 }

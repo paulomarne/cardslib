@@ -32,8 +32,8 @@ import com.nhaarman.listviewanimations.itemmanipulation.dragdrop.DraggableManage
  */
 public class CardTouchViewDraggableManager implements DraggableManager {
 
-    @IdRes
-    private final int mTouchViewResId;
+
+    private @IdRes final int mTouchViewResId;
 
     public CardTouchViewDraggableManager(@IdRes final int touchViewResId) {
         mTouchViewResId = touchViewResId;

@@ -6,13 +6,13 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.4.1'
+        classpath 'com.android.tools.build:gradle:3.4.2'
     }
 }
 
 ext {
-    compileSdkVersion = 22
-    buildToolsVersion = "22.0.1"
+    compileSdkVersion = 28
+    buildToolsVersion = "28.0.3"
 }
 
 def isReleaseBuild() {

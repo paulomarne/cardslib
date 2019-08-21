@@ -21,6 +21,7 @@ package it.gmariotti.cardslib.demo.extras.fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.graphics.Color;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
@@ -56,22 +57,38 @@ public class TwoWayViewFragment extends BaseFragment {
 
         ImageView img1 = (ImageView) view.findViewById(R.id.carddemo_image_ic_staggered);
         if (img1 != null){
-            img1.setColorFilter(setColorAlpha(getResources().getColor(R.color.demo_2way_blue_transparent), 0.75f));
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.FROYO) {
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
+                    img1.setColorFilter(setColorAlpha(getResources().getColor(R.color.demo_2way_blue_transparent), 0.75f));
+                }
+            }
         }
 
         ImageView img2 = (ImageView) view.findViewById(R.id.carddemo_image_ic_spannable);
         if (img2 != null){
-            img2.setColorFilter(setColorAlpha(getResources().getColor(R.color.demo_2way_green_transparent), 0.75f));
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.FROYO) {
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
+                    img2.setColorFilter(setColorAlpha(getResources().getColor(R.color.demo_2way_green_transparent), 0.75f));
+                }
+            }
         }
 
         ImageView img3 = (ImageView) view.findViewById(R.id.carddemo_image_ic_grid);
         if (img3 != null){
-            img3.setColorFilter(setColorAlpha(getResources().getColor(R.color.demo_2way_red_transparent), 0.75f));
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.FROYO) {
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
+                    img3.setColorFilter(setColorAlpha(getResources().getColor(R.color.demo_2way_red_transparent), 0.75f));
+                }
+            }
         }
 
         ImageView img4 = (ImageView) view.findViewById(R.id.carddemo_image_ic_list);
         if (img4 != null){
-            img4.setColorFilter(setColorAlpha(getResources().getColor(R.color.demo_2way_yellow_transparent), 0.75f));
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.FROYO) {
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
+                    img4.setColorFilter(setColorAlpha(getResources().getColor(R.color.demo_2way_yellow_transparent), 0.75f));
+                }
+            }
         }
 
         view.findViewById(R.id.onClickStaggered).setOnClickListener(new View.OnClickListener() {
@@ -109,13 +126,16 @@ public class TwoWayViewFragment extends BaseFragment {
 
     private void fragmentHelper(BaseFragment fragment){
 
-        FragmentManager fragmentManager = getFragmentManager();
-        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        fragmentTransaction.replace(R.id.fragment_main_extras, fragment);
-        fragmentTransaction.commit();
+        FragmentManager fragmentManager = null;
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.HONEYCOMB) {
+            fragmentManager = getFragmentManager();
+            FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+            fragmentTransaction.replace(R.id.fragment_main_extras, fragment);
+            fragmentTransaction.commit();
 
-        if (fragment.getTitleResourceId() > 0)
-            ((MainActivity)getActivity()).mCurrentTitle = fragment.getTitleResourceId();
+            if (fragment.getTitleResourceId() > 0)
+                ((MainActivity)getActivity()).mCurrentTitle = fragment.getTitleResourceId();
+        }
     }
 
     public static int setColorAlpha(int color, float alpha) {
